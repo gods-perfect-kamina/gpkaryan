@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Lucida Fax
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("uni.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: right;
+    list-style: none;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+
+.title{
+    position: absolute;
+    top: 40%;
+    left: 25%
+}
+
+.title h1{
+    color: #fff;
+    font-size: 50px;
+    font-family: Castellar;
+}
+
+.title2{
+    position: absolute;
+    top: 32%;
+    left: 40%
+}
+
+.title2 h3{
+    font-family: Arial Narrow;
+}
+
+.title3{
+    position: absolute;
+    top: 51%;
+    left: 36%
+}
+
+.title3 h2{
+    font-size: 16px;
+    font-family: Century;
+}
+
+.title4{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+.title4 h4{
+    color: white;.
+    font-size: 10px;
+}
+
+.title5{
+    position: absolute;
+    top: 95%;
+    left: 37%;
+}
+
+.title5 h5{
+    color: white;
+    font-size: 12px;
+    font-family:
+}
+
+.main{
+    max-width: 1300px;
+    margin: auto;
+}
+
+.button{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    border: 1px solid #fff;
+    padding: 10px; 30px;
+    color: white;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.logo1 img{
+    width: 30px;
+    position: absolute;
+    top: 95%;
+    left: 85%;
+}
+
+.logo2 img{
+    width: 30px;
+    position: absolute;
+    top: 95%;
+    left: 89%;
+}
+
+.logo3 img{
+    width: 30px;
+    position: absolute;
+    top: 95%;
+    left: 93%;
+}
+
+.logo4 img{
+    width: 30px;
+    position: absolute;
+    top: 95%;
+    left: 97%;
+}
